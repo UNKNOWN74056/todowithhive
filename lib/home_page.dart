@@ -242,7 +242,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                           "Done",
                                         ),
                                         onPressed: () async {
-                                          debugPrint("added to donle ist");
+                                          debugPrint("added to done ist");
                                           value.markAsDone(index);
 
                                           await Future.delayed(
